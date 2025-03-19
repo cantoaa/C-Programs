@@ -8,7 +8,7 @@ int main(){
     printf("Temperature: ");
     scanf("%f", temp);
     printf("\n F(Fahrenheit) or C(Celsius): ");
-    scanf("%c", type);
+    scanf(" %c", &type);
     if(type == 'F'){
         printf("\n In Celsius: %f", (temp - 32) * 5 / 9.0);
     }
