@@ -86,7 +86,7 @@ void CreateStudentsUser(int students, student Students[]){
 
 int main(){
     int students;
-    int programa = 1;
+    short programa = 1;
     char name[15];
     printf("Welcome to the Students Organizer\nHere you gonna organize yours students by attributing them informations");
     printf("\nHow many students do you have?\n");
